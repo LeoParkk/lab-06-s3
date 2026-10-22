@@ -7,10 +7,10 @@
 
 I would use a public bucket for data that anyone can access, and it isn't damaging to anybody, such as public announcements. for presigned URls, where very sensitive information is being given, like banking records, this is best since a user might want to see some statements, having limited time for extra security.
 
- 
+# Lab 06 : Working with S3 Storage 
+
 The goal of this lab is to get you comfortable with **Amazon S3** object storage, building on what you have learned about the command line, AWS accounts, and scripting. You will stage a collection of 100 books from [Project Gutenberg](https://www.gutenberg.org/) in a **public** bucket that anyone can browse in a web browser, and share a single book from a **private** bucket with a time-limited presigned URL.
 
-# Lab 06: Working with S3 Storage
 
 > **Note:** Review and adhere to the [coding best practices](https://github.com/ksiller/DS2022/blob/main/best-practices.md) where applicable when developing your scripts. The Python script in Task 1 and the bash script in Task 2 should follow the same scripting practices you used in [Lab 03](https://github.com/ksiller/lab-03-scripting), [Lab 04](https://github.com/ksiller/lab-04-sql), and [Lab 05](https://github.com/ksiller/lab-05-nosql): a shebang, functions with docstrings, comments, logging, `try`/`except` around calls to external services (AWS and web downloads), and an `if __name__ == "__main__":` block in Python, and `set -euo pipefail`, quoted variables, and validated positional arguments in bash. **Never put your AWS credentials in a script or commit them to GitHub.**
 
