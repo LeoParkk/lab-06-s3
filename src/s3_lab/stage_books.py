@@ -10,7 +10,7 @@ import boto3
 import requests
 from botocore.exceptions import ClientError
 
-
+#help show information in the terminal so see something when executed
 logging.basicConfig(level=logging.INFO, format="%(message)s")
 log = logging.getLogger(__name__)
 
